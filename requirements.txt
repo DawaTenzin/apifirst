@@ -1,7 +1,4 @@
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-navigator==1.9.7
-anaconda-project==0.8.2
 ansible==2.9.10
 appdirs==1.4.4
 appnope==0.1.0
@@ -187,7 +184,6 @@ tqdm==4.31.1
 traitlets==4.3.2
 unicodecsv==0.14.1
 urllib3==1.24.1
-virtualbox==2.0.0
 virtualenv==20.0.26
 wcwidth==0.1.7
 webencodings==0.5.1
