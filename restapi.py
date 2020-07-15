@@ -1,9 +1,14 @@
-from flask import Flask, jsonify, request
-app=Flask(__name__)
+from flask import Flask
+from flask_restful import Resource, Api
 
-@app.route('/',methods=['GET'])
-def test():
- return jsonify({'message':'It workded'})
+app = Flask(__name__)
+api = Api(app)
 
-if __name__=='__main__':
+class HelloWorld(Resource):
+    def get(self):
+        return {'hello': 'world'}
+
+api.add_resource(HelloWorld, '/')
+
+if __name__ == '__main__':
     app.run(debug=True)
