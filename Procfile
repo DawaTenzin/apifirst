@@ -1,1 +1,1 @@
-web: gunicorn app/restapi.py
+web: gunicorn app/restapi.py:app
