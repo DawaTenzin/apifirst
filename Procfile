@@ -1,1 +1,1 @@
-web: gunicorn gohome12:app
+web: gunicorn app:app
